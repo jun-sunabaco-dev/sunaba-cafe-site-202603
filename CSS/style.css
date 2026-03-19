@@ -213,7 +213,6 @@ main {
   height: 100%;
 }
 
-/* 追加② */
 .about-gallery img,
 .recommend-image-wrap img {
   height: 100%;
@@ -230,6 +229,9 @@ main {
   background: #f8f4ee;
   border: 1px solid #d7ccc0;
   padding: 10px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-card img {
@@ -240,16 +242,22 @@ main {
 .menu-card-body {
   text-align: center;
   padding: 10px 6px 2px;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .menu-card-body h3 {
   margin: 0 0 8px;
   font-size: 1.05rem;
   line-height: 1.5;
+  margin-top: auto;
+  margin-bottom: auto;  
 }
 
 .menu-card-body p {
-  margin: 0;
+  margin-top: auto;
   font-size: 1.05rem;
 }
 
