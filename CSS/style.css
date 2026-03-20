@@ -76,10 +76,25 @@ img {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: #75706d;
   text-decoration: none;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
+}
+
+.logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .site-nav {
