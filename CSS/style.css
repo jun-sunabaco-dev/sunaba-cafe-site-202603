@@ -462,7 +462,7 @@ main {
   }
 
   .hero-image {
-    min-height: 360px;
+    height: 360px;
   }
 
 }
