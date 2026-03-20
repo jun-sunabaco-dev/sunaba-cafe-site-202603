@@ -212,17 +212,6 @@ main {
   gap: 10px;
 }
 
-.about-gallery img{
-  width: 100%;
-  height: 120%;
-  object-fit: cover;
-}
-.recommend-image-wrap img{
-  width: 80%;
-  height: 70%;
-  object-fit: contain;
-}
-
 .master-layout img,
 .access-map img,
 .menu-card img {
@@ -458,9 +447,17 @@ main {
   .menu-grid,
   .about-gallery {
     grid-template-columns: 1fr;
+    height: auto;
   }
 
   .access-info li {
     grid-template-columns: 1fr;
   }
+
+  .about-gallery img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
 }
